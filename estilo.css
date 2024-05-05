@@ -79,4 +79,8 @@ hr {
     p {
         font-size: 14px;
     }
+    h1 {
+        font-size: 50px;
+        /* Ou qualquer tamanho adequado para a tela do celular */
+        }
 }
