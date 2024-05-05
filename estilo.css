@@ -61,3 +61,22 @@ hr {
 .Det{
     font-size: 22px;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Ajuste o tamanho das imagens */
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Ajuste o layout dos itens */
+    .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    /* Ajuste o tamanho da fonte para textos */
+    p {
+        font-size: 14px;
+    }
+}
